@@ -1,0 +1,60 @@
+
+.body {
+    background-color:#767865;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #42576B;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    background-color: #42576B;
+    padding: 50px;
+    margin-top: 100px;
+    width: 600px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#porta {
+    background-color: #58594B;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #ffebcd;
+}
+#contador {
+    font-size: 80px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+#btnEntrar {
+    background: #99251F;
+    color: white;
+}
+
+#btnEntrar:active { transform: scale(0.9); }
+
+#btnReiniciar {
+    background: #85BAEA;
+    color: white;
+}
